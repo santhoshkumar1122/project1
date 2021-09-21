@@ -13,5 +13,22 @@ public class UserController {
 	{
 		return "get user method was called";
 	}
+	
+	public String createUser()
+	{
+		return"create user method was called";
+		
+	}
+	
+	public String updateUser()
+	{
+		return "update user naethod was called";
+		
+	}
+	
+	public String deleteUser()
+	{
+		return "delete user method was called";
+	}
 
 }
