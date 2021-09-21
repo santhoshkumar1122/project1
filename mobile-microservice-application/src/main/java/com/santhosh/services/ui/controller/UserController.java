@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/users")
 public class UserController {
 	
+        @GetMapping("/get")
 	public String getUser()
 	{
 		return "get user method was called";
